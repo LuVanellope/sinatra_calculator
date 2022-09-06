@@ -38,9 +38,3 @@ get '/subtract' do
 
   erb :subtract
 end
-
-get '/counting' do
-  @num = 1..200
-
-  erb :counting
-end
